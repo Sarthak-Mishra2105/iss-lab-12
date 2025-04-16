@@ -1,3 +1,6 @@
+# Repository Link
+[GitHub Repository](https://github.com/Sarthak-Mishra2105/iss-lab-12/)
+
 ### Fixing the Buggy Code
 
 - This code has 30 issues out of which 1 is no code in style.css . 
