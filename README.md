@@ -37,11 +37,11 @@
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
 | 1   | Style.css is not filled                  | Narain        | Whole Team   |
-| 2   |                                          |               |              |
-| 3   |                                          |               |              |
-| 4   |                                          |               |              |
-| 5   |                                          |               |              |
-| 6   |                                          |               |              |
+| 2   | Router wrongly initialized as empty dictionary in items.py                                         |  Sarthak             | Sarthak            |
+| 3   | Duplicate POST route handler in items.py                                      |      Vaibhavi         |      Vaibhavi        |
+| 4   | Delete endpoint expects two parameters but frontend sends one                                         |     Shravan          |    Shravan          |
+| 5   | GET handler incorrectly implemented as POST in users.py                                       |     AV Aditya          |      AV Aditya        |
+| 6   | delete_user function using delete_all() instead of delete_one()                                         |    Pragati           |  Pragati           |
 | 7   |                                          |               |              |
 | 8   |                                          |               |              |
 | 9   |                                          |               |              |
