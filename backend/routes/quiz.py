@@ -1,4 +1,5 @@
-from fastapi import APIRouter
+from fastapi import APIRouter, Body
+# added Body to this - Shravan
 import random
 
 router = APIRouter(tags=["quiz"])
@@ -48,8 +49,9 @@ async def get_question():
         "options": question["options"]
     }
 
-@router.get("/answer")
-async def submit_answer(data: dict):
+# made get to post - shravan
+@router.post("/answer")
+async def submit_answer(data: dict = Body(...)):
     question_id = data.get("id")
     answer = data.get("answer")
     score = data.get("score", 0)
