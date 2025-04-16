@@ -26,13 +26,17 @@
 
 ### Add the names of the members and roll numbers of your team below
 
-- Name : Roll Number
+- Pragati Prasad: 2024113029
+- Shravan Kannan: 2024117003
+- AV Aditya     : 2024111031
+- Sarthak Mishra: 2024117007
+- Vaibhavi Kolipaka: 2024115019
 
 ### Table to keep track
 
 | ID  | Issue Description                        | Identified By | Fixed By     |
 |-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                                    |         Narain |     Whole Team     |
+| 1   | Style.css is not filled                  | Narain        | Whole Team   |
 | 2   |                                          |               |              |
 | 3   |                                          |               |              |
 | 4   |                                          |               |              |
