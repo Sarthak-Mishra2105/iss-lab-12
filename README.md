@@ -34,35 +34,37 @@
 
 ### Table to keep track
 
-| ID  | Issue Description                        | Identified By | Fixed By     |
-|-----|------------------------------------------|---------------|--------------|
-| 1   | Style.css is not filled                  | Narain        | Whole Team   |
-| 2   | Router wrongly initialized as empty dictionary in items.py                                         |  Sarthak             | Sarthak            |
-| 3   | Duplicate POST route handler in items.py                                      |      Vaibhavi         |      Vaibhavi        |
-| 4   | Delete endpoint expects two parameters but frontend sends one                                         |     Shravan          |    Shravan          |
-| 5   | GET handler incorrectly implemented as POST in users.py                                       |     AV Aditya          |      AV Aditya        |
-| 6   | delete_user function using delete_all() instead of delete_one()                                         |    Pragati           |  Pragati           |
-| 7   |                                          |               |              |
-| 8   |                                          |               |              |
-| 9   |                                          |               |              |
-| 10  |                                          |               |              |
-| 11  |                                          |               |              |
-| 12  |                                          |               |              |
-| 13  |                                          |               |              |
-| 14  |                                          |               |              |
-| 15  |                                          |               |              |
-| 16  |                                          |               |              |
-| 17  |                                          |               |              |
-| 18  |                                          |               |              |
-| 19  |                                          |               |              |
-| 20  |                                          |               |              |
-| 21  |                                          |               |              |
-| 22  |                                          |               |              |
-| 23  |                                          |               |              |
-| 24  |                                          |               |              |
-| 25  |                                          |               |              |
-| 26  |                                          |               |              |
-| 27  |                                          |               |              |
-| 28  |                                          |               |              |
-| 29  |                                          |               |              |
-| 30  |                                          |               |              |
+| ID  | Issue Description                                                       | Identified By | Fixed By     |
+|-----|-------------------------------------------------------------------------|---------------|--------------|
+| 1   | CSS File Empty                                                          | Narain        | Whole Team   |
+| 2   | Router wrongly initialized as empty dictionary in items.py              | Sarthak       | Sarthak      |
+| 3   | Duplicate POST route handler in items.py                                | Vaibhavi      | Vaibhavi     |
+| 4   | Delete endpoint expects two parameters but frontend sends one           | Shravan       | Shravan      |
+| 5   | GET handler incorrectly implemented as POST in users.py                 | AV Aditya     | AV Aditya    |
+| 6   | delete_user function using delete_all() instead of delete_one()           | Pragati       | Pragati      |
+| 7   | Quiz answer endpoint using GET instead of POST for request body         | Shravan       | Shravan      |
+| 8   | get_question() function always returns same question                    | Vaibhavi      | Vaibhavi     |
+| 9   | Item class not inheriting from BaseModel                                | Pragati       | Pragati      |
+| 10  | Item name field incorrectly typed as int instead of str                 | Sarthak       | Sarthak      |
+| 11  | Missing users_router in main.py                                         | AV Aditya     | AV Aditya    |
+| 12  | deleteItem function using wrong HTTP method in items.js                 | Vaibhavi      | Vaibhavi     |
+| 13  | Incorrect Content-Type header in items.js API call                      | AV Aditya     | AV Aditya    |
+| 14  | Missing container elements in items.html                                | Pragati       | Pragati      |
+| 15  | Incorrect baseURL port (8001 vs 8000) in analytics.js                    | Sarthak       | Sarthak      |
+| 16  | Wrong property name for chart in analytics.js                           | Shravan       | Shravan      |
+| 17  | Missing quiz link in multiple navigation bars                           | Sarthak       | Sarthak      |
+| 18  | Incorrect script path in profile.html (styles/ vs scripts/)              | Shravan       | Shravan      |
+| 19  | Missing header element in multiple HTML files                           | Vaibhavi      | Vaibhavi     |
+| 20  | Outdated DOCTYPE declaration in index.html                              | AV Aditya     | AV Aditya    |
+| 21  | Incorrect charset (ISO-8859-1 vs UTF-8) in index.html                     | Pragati       | Pragati      |
+| 22  | Implemented some missing frontends, fixed profile.js file                | Vaibhavi      | Vaibhavi     |
+| 23  | Wrong field names in analytics.py (names vs name)                        | Sarthak       | Sarthak      |
+| 24  | Inconsistent router prefixes in main.py                                 | Sarthak       | Sarthak      |
+| 25  | Fixed profile.html structure                                            | Shravan       | Shravan      |
+| 26  | No baseURL defined in profile.js but used in fetch calls                | AV Aditya     | AV Aditya    |
+| 27  | Fixed function calling in profile.js                                    | Pragati       | Pragati      |
+| 28  | Incorrect HTTP method in profile.js delete handler (PATCH vs DELETE)      | Vaibhavi      | Vaibhavi     |
+| 29  | Added more data to the profile page                                     | Sarthak       | Sarthak      |
+| 30  | Fixed missing data in profile page                                      | Shravan       | Shravan      |
+| 31  | Implement CORS                                                          | Sarthak       | Sarthak      |
+| 32  | Fix quiz page CSS                                                       | Sarthak       | Sarthak      |
