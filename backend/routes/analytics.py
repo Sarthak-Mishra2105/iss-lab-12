@@ -25,16 +25,16 @@ async def get_analytics():
     items = []
     async for item in items_collection.find():
         items.append(item)
-    # damm this is the last lab
-    users = ["A1","B2","C3"]
+    
+    users = []
     async for user in users_collection.find():
         users.append(user)
     
     item_count = len(items)
     user_count = len(users)
     
-    item_name_lengths = np.array([len(item["names"]) for item in items]) if items else np.array([])
-    user_username_lengths = np.array([len(user["usernames"]) for user in users]) if users else np.array([])
+    item_name_lengths = np.array([len(item["name"]) for item in items]) if items else np.array([])
+    user_username_lengths = np.array([len(user["username"]) for user in users]) if users else np.array([])
     
     stats = {
         "item_count": item_count,
@@ -57,7 +57,6 @@ async def get_analytics():
     plt.xlabel("Length")
     plt.ylabel("Frequency")
     plt.legend()
-    # Chocolate Question: Is there a modern alternative to REST that avoids over-fetching and under-fetching of data?
     
     buffer = io.BytesIO()
     plt.savefig(buffer, format="png")
@@ -66,5 +65,6 @@ async def get_analytics():
     plt.close()
     
     return JSONResponse({
-        "stats": stats
+        "stats": stats,
+        "chart": f"data:image/png;base64,{image_base64}"
     })
