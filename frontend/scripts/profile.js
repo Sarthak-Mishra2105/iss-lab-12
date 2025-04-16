@@ -50,7 +50,7 @@ document.getElementById("search").addEventListener("input", async (e) => {
   });
 });
 
-loadUsers();
+
 
 document.getElementById("userForm").addEventListener("submit", async (e) => {
   e.preventDefault();
@@ -65,3 +65,4 @@ document.getElementById("userForm").addEventListener("submit", async (e) => {
   loadUsers();
 });
 
+loadUsers();
