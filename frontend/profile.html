@@ -18,16 +18,22 @@
   </header>
   <div class="container">
     <!-- Please suggest some good music, I am tired of my playlist -->
-    <p id="userCounts">Total users: 0</p>
-    <input type="text" id="search" placeholder="Search users..." />
     <h1>🧑 User Profiles</h1>
-    <form id="userForm">
-      <input type="text" id="username" placeholder="Username" required />
-      <input type="text" id="bio" placeholder="Bio" required />
-      <button type="submit">Add User</button>
-    </form>
-    <ul id="userList"></ul>
-  </div>
+    
+    <div class="card">
+      <h2>Add New User</h2>
+      <form id="userForm">
+        <div class="form-group">
+          <label for="username">Username:</label>
+          <input type="text" id="username" required />
+        </div>
+        <div class="form-group">
+          <label for="bio">Bio:</label>
+          <textarea id="bio" required></textarea>
+        </div>
+        <button type="submit">Add User</button>
+      </form>
+    </div>
 <!-- made styles to scripts -->
   <script src="scripts/profile.js"></script>
 </body>
